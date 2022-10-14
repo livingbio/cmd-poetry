@@ -1,0 +1,4 @@
+steps:
+  # stage
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "cmd-poetry", "."]

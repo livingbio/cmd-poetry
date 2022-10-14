@@ -1,3 +1,4 @@
 FROM python:3-slim
 
-RUN pip install poetry && poetry self add poetry-dynamic-versioning[plugin]
+COPY requirements.txt /
+RUN pip install -r requirements.txt && poetry self add poetry-dynamic-versioning[plugin]
