@@ -13,7 +13,7 @@ cachy==0.3.0
 certifi==2022.9.24
     # via requests
 cffi==1.15.1
-    # via xattr
+    # via cryptography
 charset-normalizer==2.1.1
     # via requests
 cleo==1.0.0a5
@@ -22,6 +22,8 @@ crashtest==0.3.1
     # via
     #   cleo
     #   poetry
+cryptography==38.0.1
+    # via secretstorage
 distlib==0.3.6
     # via virtualenv
 dulwich==0.20.46
@@ -34,13 +36,17 @@ idna==3.4
     # via requests
 jaraco-classes==3.2.3
     # via keyring
+jeepney==0.8.0
+    # via
+    #   keyring
+    #   secretstorage
 jsonschema==4.16.0
     # via poetry
 keyring==23.9.3
     # via poetry
 lockfile==0.12.2
     # via cachecontrol
-more-itertools==8.14.0
+more-itertools==9.0.0
     # via jaraco-classes
 msgpack==1.0.4
     # via cachecontrol
@@ -81,6 +87,8 @@ requests==2.28.1
     #   requests-toolbelt
 requests-toolbelt==0.9.1
     # via poetry
+secretstorage==3.3.3
+    # via keyring
 shellingham==1.5.0
     # via poetry
 six==1.16.0
@@ -96,5 +104,3 @@ virtualenv==20.16.5
     # via poetry
 webencodings==0.5.1
     # via html5lib
-xattr==0.9.9
-    # via poetry
