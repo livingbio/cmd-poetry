@@ -26,7 +26,7 @@ cryptography==38.0.1
     # via secretstorage
 distlib==0.3.6
     # via virtualenv
-dulwich==0.20.46
+dulwich==0.20.50
     # via poetry
 filelock==3.8.0
     # via virtualenv
