@@ -93,7 +93,7 @@ shellingham==1.5.0
     # via poetry
 six==1.16.0
     # via html5lib
-tomlkit==0.11.5
+tomlkit==0.11.6
     # via poetry
 urllib3==1.26.12
     # via
