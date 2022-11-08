@@ -34,6 +34,8 @@ html5lib==1.1
     # via poetry
 idna==3.4
     # via requests
+importlib-metadata==5.0.0
+    # via keyring
 jaraco-classes==3.2.3
     # via keyring
 jeepney==0.8.0
@@ -42,7 +44,7 @@ jeepney==0.8.0
     #   secretstorage
 jsonschema==4.17.0
     # via poetry
-keyring==23.9.3
+keyring==23.11.0
     # via poetry
 lockfile==0.12.2
     # via cachecontrol
@@ -104,3 +106,5 @@ virtualenv==20.16.6
     # via poetry
 webencodings==0.5.1
     # via html5lib
+zipp==3.10.0
+    # via importlib-metadata
