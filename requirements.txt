@@ -102,7 +102,7 @@ urllib3==1.26.12
     #   dulwich
     #   poetry
     #   requests
-virtualenv==20.16.6
+virtualenv==20.16.7
     # via poetry
 webencodings==0.5.1
     # via html5lib
