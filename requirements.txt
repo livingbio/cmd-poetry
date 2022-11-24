@@ -97,7 +97,7 @@ six==1.16.0
     # via html5lib
 tomlkit==0.11.6
     # via poetry
-urllib3==1.26.12
+urllib3==1.26.13
     # via
     #   dulwich
     #   poetry
