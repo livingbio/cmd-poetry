@@ -10,7 +10,7 @@ cachecontrol[filecache]==0.12.11
     # via poetry
 cachy==0.3.0
     # via poetry
-certifi==2022.9.24
+certifi==2022.12.7
     # via requests
 cffi==1.15.1
     # via cryptography
