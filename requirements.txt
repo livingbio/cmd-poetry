@@ -52,7 +52,7 @@ more-itertools==9.0.0
     # via jaraco-classes
 msgpack==1.0.4
     # via cachecontrol
-packaging==21.3
+packaging==22.0
     # via poetry
 pexpect==4.8.0
     # via poetry
@@ -78,8 +78,6 @@ pycparser==2.21
     # via cffi
 pylev==1.4.0
     # via cleo
-pyparsing==3.0.9
-    # via packaging
 pyrsistent==0.19.2
     # via jsonschema
 requests==2.28.1
