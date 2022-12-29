@@ -58,7 +58,7 @@ pexpect==4.8.0
     # via poetry
 pkginfo==1.9.2
     # via poetry
-platformdirs==2.6.0
+platformdirs==2.6.2
     # via
     #   poetry
     #   virtualenv
