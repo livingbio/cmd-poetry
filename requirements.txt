@@ -56,7 +56,7 @@ packaging==22.0
     # via poetry
 pexpect==4.8.0
     # via poetry
-pkginfo==1.9.4
+pkginfo==1.9.6
     # via poetry
 platformdirs==2.6.2
     # via
